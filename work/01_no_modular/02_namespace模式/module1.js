@@ -4,7 +4,11 @@
  * 问题: 不安全(数据不是私有的, 外部可以直接修改)
  */
 
+
+let a
+
 let myModule = {
+
   data:'atguigu',
   foo () {
     console.log(`moduel1------foo(),${this.data}`)
