@@ -6,6 +6,7 @@
 
 
 let a
+let b
 
 let myModule = {
 
